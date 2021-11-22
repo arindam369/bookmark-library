@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading" id="add-bookmark">Add Bookmarks</div>
+
+        <div class="bookmarks-container" id="bookmarks-container">
+
+            <!-- <div class="bookmarks">
+                <i class="far fa-window-close"></i>
+                <div class="bookmark-content">
+                    <img src="https://s2.googleusercontent.com/s2/favicons?domain=https://arindam369.github.io/narutofy/"
+                        alt="bookmark">
+                    <a href="https://arindam369.github.io/narutofy/" target="_blank">NarutoFy</a>
+                </div>
+            </div> -->
+
+        </div>
+
+        <div class="modal-container" id="modal-container">
+            <div class="modal-page" id="modal-page">
+                <div class="modal-box">
+                    <div class="modal-heading">Add Bookmark
+                        <i class="far fa-window-close" id="close-modal"></i>
+                    </div>
+                    <div class="modal-content">
+
+                        <form action="" method="POST" id="modal-form">
+                            <div class="website-data">Website Name :
+                                <input type="text" name="websiteName" autocomplete="off" required
+                                    placeholder="Enter Website Name">
+                            </div>
+                            <div class="website-data">
+                                Website URL &nbsp;:
+                                <input type="url" name="webURL" autocomplete="off" required placeholder="Enter Web URL">
+                            </div>
+                            <div class="button" id="save-button"><button type="submit">Save</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
